@@ -1,0 +1,28 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = '$directory$git_branch$git_commit$git_state$git_status$golang$helm$java$nodejs$python$red$ruby$rust$kubernetes$custom$cmd_duration$lua$line_break$jobs$time$status$shell$character'
+
+[character]
+success_symbol = '[→](bold green)'
+error_symbol = '[→](bold red)'
+
+[git_commit]
+tag_disabled = true
+only_detached = false
+disabled = false
+commit_hash_length = 8
+
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[conda]
+truncation_length = 14
+
+[nodejs]
+format = "via [🤖 $version](bold green) "
+
+[gcloud]
+disabled = true
