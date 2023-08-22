@@ -14,14 +14,9 @@
     ds = diff --staged
     dc = diff --cached
 [core]
-    editor = nvim
     excludesfile = ~/.config/git/ignore
 [url "https://"]
     insteadOf = git://
-[gpg]
-    program = gpg
-[commit]
-    gpgsign = true
 [pager]
     difftool = true
 [diff]
