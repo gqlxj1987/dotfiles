@@ -1,0 +1,40 @@
+font-family = "Maple Mono"
+font-style = Regular
+font-size = 12
+theme = dark:tokyonight,light:tokyonight-day
+# Theme settings
+# theme = dark:vesper,light:catppuccin-latte
+# theme = dark:catppuccin-mocha,light:catppuccin-latte
+# background = #1c2021
+background = #0B1215
+background-opacity = 0.90
+background-blur-radius = 20
+bold-is-bright = true
+theme = tokyonight
+
+mouse-hide-while-typing = true
+
+macos-titlebar-style = tabs
+macos-titlebar-proxy-icon = hidden
+
+# window settings
+# macos-titlebar-style = hidden
+window-decoration = true
+window-theme = auto
+window-padding-color = background
+window-padding-x = 0
+window-padding-y = 0
+window-padding-balance = false
+window-colorspace = "display-p3"
+adjust-cell-height = 10%
+
+shell-integration-features = no-cursor,sudo
+confirm-close-surface = false
+
+macos-icon = "custom-style"
+macos-icon-frame = "plastic"
+macos-icon-ghost-color = "#FFA500"
+macos-icon-screen-color = "#FFA500"
+
+shell-integration = zsh
+term = xterm-256color
